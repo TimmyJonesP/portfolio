@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "presentation": "HOLA, SOY",
+    "description": "SANDRO CARIOLI",
+    "foot": "DESARROLLADOR FRONT-END"
+  },
+  "me": {
+    "hobbies": [
+      "BAJISTA",
+      "AMANTE DE LOS GATOS",
+      "MELÓMANO",
+      "JUGADOR DE VIDEOJUEGOS",
+      "CINÉFILO",
+      "MUSEÓFILO"
+    ]
+  },
+  "footer": {
+    "foot": "(ENCONTRÁ)",
+    "links": ["/projects", "/contact"],
+    "names": ["PROYECTOS", "CONTACTO"],
+    "email": "MANDAME UN MAIL"
+  }
+}

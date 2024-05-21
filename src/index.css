@@ -1,0 +1,136 @@
+/* Importaciones de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  font-style: normal; 
+  font-weight: 400; 
+  src: url(/NeueMontreal-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  font-style: normal; 
+  font-weight: 500; 
+  src: url(/NeueMontreal-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Neue Montreal';
+  font-style: normal; 
+  font-weight: 600; 
+  src: url(/NeueMontreal-Bold.otf) format('opentype');
+}
+
+body {
+  font-family: 'Neue Montreal', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(to right,
+   #f9a2a2,
+   #86efac,
+   #fde047,
+   #86efac,
+   #f9a2a2,
+   #86efac,
+   #fde047 );
+  -webkit-background-clip: text;
+  background-size: 300% 300%;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 6s linear infinite
+}
+
+.gradient-tech {
+  background: linear-gradient(to right,
+   #0004ff,
+   #ff0000,
+   #1daf00,
+   #ff0000,
+   #0004ff,
+   #ff0000,
+   #1daf00 );
+  -webkit-background-clip: text;
+  background-size: 300% 300%;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 6s linear infinite
+}
+
+.filter-grayscale img {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.filter-grayscale img:hover {
+  filter: grayscale(0%);
+}
+
+#circle {
+  border-radius: 50%;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  padding: 12.7%;
+  z-index: 10;
+  left: 32px;
+  top: -40px;
+  justify-content: center;
+  align-items: center;
+}
+
+#circle svg {
+  transform: translate(-50%, -50%);
+}
+
+.nav {
+  z-index: 1000;
+}
+
+.absolute-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-toast {
+  background-color: #4caf50;
+  color: white;
+  font-size: 14px;
+}
+
+.custom-toast-error {
+  background-color: #f44336;
+  color: white;
+  font-size: 14px;
+}
+
+@keyframes move-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(50%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75%{
+    transform: translateX(-50%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+.animate-horizontal-move {
+  animation: move-horizontal 10s linear infinite;
+}
