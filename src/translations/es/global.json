@@ -23,6 +23,12 @@
     "foot": "(ENCONTRÁ)",
     "links": ["/projects", "/contact"],
     "names": ["PROYECTOS", "CONTACTO"],
-    "email": "MANDAME UN MAIL"
+    "email": "e-mail",
+    "resume": "CURRICULUM",
+    "linkedin": "LINKEDIN",
+    "whatsapp": "WHATSAPP",
+    "github": "GITHUB",
+    "also": "podes encontrarme también en:",
+    "cv": "/cv.pdf"
   }
 }

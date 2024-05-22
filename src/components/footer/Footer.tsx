@@ -23,12 +23,16 @@ const Footer = () => {
       });
   };
 
+  const cv = t("footer.cv");
+
+  const handleResume = () => {
+    window.open(cv, "_blank");
+  };
+
   return (
     <footer className="md:items-center justify-start bg-black  md:pb-0 text-[12vw] md:text-[6.75vw] font-medium text-white uppercase">
       <section className="flex flex-col items-start gap-12 px-4 h-screen w-screen md:items-center md:gap-20 md:flex-col   bg-zinc-900">
-        <span className="font- font-lg pb-[20vw] md:pb-0">
-          {t("footer.foot")}
-        </span>
+        <span className="font-lg pb-[20vw] md:pb-0">{t("footer.foot")}</span>
         <div className="flex flex-col leading-[0.7] gap-4">
           <Link
             to="/projects"
@@ -48,14 +52,51 @@ const Footer = () => {
           </Link>
         </div>
       </section>
-      <section className="relative h-screen w-full bg-white flex text-black leading-[0.8]">
-        <div className="flex flex-col w-full self-center mb-10">
-          <div
-            onClick={handleCopy}
-            className="text-lg hover:text-red cursor-pointer"
+      <section className="relative h-screen w-auto bg-white flex text-black leading-[0.8] p-4 text-[12vw] md:text-[6.75vw]">
+        <div className="flex flex-col self-center">
+          <span
+            onClick={handleResume}
+            className="md:mb-3 hover:text-red-500 cursor-pointer inline"
           >
-            <span>{t("footer.email")}</span>
-          </div>
+            {t("footer.resume")}
+          </span>
+          <span
+            onClick={handleCopy}
+            className="md:mb-3 hover:text-red-500 cursor-pointer inline"
+          >
+            {t("footer.email")}
+          </span>
+          <span
+            onClick={() =>
+              window.open("https://wa.me/+540239615430243", "_blank")
+            }
+            className="md:mb-3 hover:text-red-500 cursor-pointer inline"
+          >
+            {t("footer.whatsapp")}
+          </span>
+          <p className="text-sm md:text-[20px] md:px-2 md:pb-2 lowercase">
+            {t("footer.also")}
+          </p>
+          <span
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/sandrocarioli/",
+                "_blank"
+              )
+            }
+            className="md:mb-3 hover:text-red-500 cursor-pointer inline"
+          >
+            {t("footer.linkedin")}
+          </span>
+          <span
+            onClick={() =>
+              window.open("https://github.com/TimmyJonesP/", "_blank")
+            }
+            className="md:mb-3 hover:text-red-500 cursor-pointer inline"
+          >
+            {t("footer.github")}
+          </span>
+
           <ToastContainer
             position="bottom-right"
             autoClose={2000}

@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <main className=" ">
       <article className="row-1 h-svh bg-white">
-        <div className="flex gap-20 justify-end md:justify-between items-end h-full py-[14px] md:py-[30px] flex-col md:flex-row">
+        <div className="flex gap-20 justify-end md:justify-between items-end h-full md:px-5 py-[14px] md:py-[30px] flex-col md:flex-row">
           <div className="md:w-1/2 flex flex-col left self-start md:self-end mx-4 text-black text-[20px] font-medium leading-none">
             <p className="md:text-[2vw]">{t("home.presentation")}</p>
             <p className="font-bold leading-[0.79] gradient-text text-transparent text-[40px] animate-gradient sm:text-[80px] md:text-[7vw]">
