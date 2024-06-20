@@ -30,5 +30,18 @@
     "github": "GITHUB",
     "also": "podes encontrarme también en:",
     "cv": "/cv.pdf"
+  },
+  "projects": {
+    "title": "PROYECTOS",
+    "description": "Debajo hay una lista de proyectos que elegí con sus respectivas tecnologías. He realizado proyectos Front End y Back End los cuales podes encontrar en mi Github. Actualmente me encuentro interesado en seguir desarrollando mis skills en Front End."
+  },
+  "P1": {
+    "title": "White Palace",
+    "stack": "Diseño - Front-End",
+    "technologies": "HTML, CSS, JAVASCRIPT, ASTRO"
+  },
+  "common": {
+    "viewDeployed": "Ver Deploy",
+    "viewGithub": "Ver Github"
   }
 }

@@ -7,13 +7,13 @@ export const Home = () => {
     <main className=" ">
       <article className="row-1 h-svh bg-white">
         <div className="flex gap-20 justify-end md:justify-between items-end h-full md:px-5 py-[14px] md:py-[30px] flex-col md:flex-row">
-          <div className="md:w-1/2 flex flex-col left self-start md:self-end mx-4 text-black text-[20px] font-medium leading-none">
+          <div className="md:w-1/2 flex flex-col left self-start md:self-end mx-4 text-black text-[20px] font-medium">
             <p className="md:text-[2vw]">{t("home.presentation")}</p>
             <p className="font-bold leading-[0.79] gradient-text text-transparent text-[40px] animate-gradient sm:text-[80px] md:text-[7vw]">
               SANDRO <br className="hidden sm:block leading-[0px]" />
               CARIOLI
             </p>
-            <p className="flex flex-row md:flex-col items-center md:items-start md:text-[2vw] leading-[0.8]">
+            <p className="flex flex-row md:flex-col items-center md:items-start md:text-[2vw]">
               {t("home.foot")}
             </p>
           </div>

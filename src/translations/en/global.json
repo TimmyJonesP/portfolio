@@ -30,5 +30,18 @@
     "github": "GITHUB",
     "also": "you can also find me on:",
     "cv": "/resume-en.pdf"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "description": "Below is a list of my selected projects with their respective technologies. I've made Front and Back End projects wich repositories you can find in my Github. Right now, I'm super-interested in Front End projects."
+  },
+  "P1": {
+    "title": "White palace",
+    "stack": "Design - Front-end",
+    "technologies": "HTML, CSS, JavaScript, astro"
+  },
+  "common": {
+    "viewDeployed": "View Deployed",
+    "viewGithub": "View Github"
   }
 }

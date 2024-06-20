@@ -7,10 +7,11 @@ import global_es from "./translations/es/global.json";
 
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 
-i18next.init({
-  interpolation: { escapeValue: true },
-  lng: "es",
+i18next.use(LanguageDetector).init({
+  interpolation: { escapeValue: false },
+  fallbackLng: "en",
   resources: {
     en: {
       global: global_en,
