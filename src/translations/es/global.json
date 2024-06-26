@@ -32,7 +32,7 @@
     "cv": "/cv.pdf"
   },
   "projects": {
-    "title": "PROYECTOS",
+    "title": "PROYECTOS & TRABAJO",
     "description": "Debajo hay una lista de proyectos que elegí con sus respectivas tecnologías. He realizado proyectos Front End y Back End los cuales podes encontrar en mi Github. Actualmente me encuentro interesado en seguir desarrollando mis skills en Front End."
   },
   "P1": {
@@ -43,5 +43,49 @@
   "common": {
     "viewDeployed": "Ver Deploy",
     "viewGithub": "Ver Github"
-  }
+  },
+  "works": [
+    {
+      "id": 1,
+      "tech": "React / TypeScript / Tailwind",
+      "name": "GA Risk Capital",
+      "description": "Desarrollo de una aplicación web a partir del diseño en archivo Figma. Utilización de metodología mobile-first e implementación de soporte multiidioma con i18next. Mis responsabilidades incluyeron la gestión del hosting, la implementación de SEO y garantizar el correcto funcionamiento y mantenimiento del sitio web. Grupo de trabajo: Diseñador UI/UX, UX Writer, Desarrollador. GitHub está desactualizado, pero proporciona una visión general del código base.",
+      "image": "/desktop-gp.png",
+      "image2": "/mobile-gp.png",
+      "githubLink": "https://github.com/TimmyJonesP/GC",
+      "deployLink": "https://www.gariskcapital.com"
+    },
+    {
+      "id": 2,
+      "tech": "Astro / TypeScript / Tailwind",
+      "name": "White Palace",
+      "image": "/desktop-wp.png",
+      "image2": "/mobile-wp.png",
+      "githubLink": "https://github.com/TimmyJonesP/WhitePalace-Astro",
+      "deployLink": "https://whitepalace.netlify.app/"
+    },
+    {
+      "id": 3,
+      "tech": "React / JavaScript / Tailwind / Firebase",
+      "name": "Vinoteca",
+      "image": "/desktop-vt.png",
+      "image2": "/mobile-vt.png",
+      "githubLink": "https://github.com/TimmyJonesP/CH-React.JS",
+      "deployLink": "https://final-react-chi.vercel.app/"
+    },
+    {
+      "id": 4,
+      "tech": "NestJS / TypeScript / PostgreSQL",
+      "name": "APIrest",
+      "githubLink": "https://github.com/TimmyJonesP/Vet-API-Nestjs",
+      "deployLink": ""
+    },
+    {
+      "id": 5,
+      "tech": " NodeJS / Express / MongoDB",
+      "name": "APIrest",
+      "githubLink": "https://github.com/TimmyJonesP/Ecommerce-NodeJS-Express",
+      "deployLink": ""
+    }
+  ]
 }

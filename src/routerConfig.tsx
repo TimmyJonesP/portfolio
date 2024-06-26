@@ -1,4 +1,4 @@
-import { Contact, Home, Projects } from "./pages";
+import { Contact, Home, Projects, ProjectDetail } from "./pages";
 
 export interface RouteConfig {
   path: string;
@@ -17,5 +17,9 @@ export const routes: RouteConfig[] = [
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/projects/:id",
+    element: <ProjectDetail />,
   },
 ];
