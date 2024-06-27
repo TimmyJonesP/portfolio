@@ -50,7 +50,7 @@
       "name": "GA Risk Capital",
       "image": "/desktop-gp.png",
       "image2": "/mobile-gp.png",
-      "description": "Development of a web application from a Figma file design. Utilized mobile-first methodology and implemented multi-language support with i18next. My responsibilities included managing hosting, implementing SEO, and ensuring the proper functioning and maintenance of the website. Work group: UI/UX Designer, UX Writer, Developer. GitHub is outdated, but it provides an overview of the codebase.",
+      "description": "Development of a web application based on a design from Figma. Utilized a mobile-first methodology and implemented multi-language support with i18next. My responsibilities included managing hosting, implementing SEO, and ensuring the proper functioning and maintenance of the website, as well as maintaining communication with the client. Work group: UI/UX Designer, UX Writer, and Developer. Although the GitHub repository is outdated, it provides an overview of the codebase.",
       "githubLink": "https://github.com/TimmyJonesP/GC",
       "deployLink": "https://www.gariskcapital.com"
     },
@@ -60,6 +60,7 @@
       "name": "White Palace",
       "image": "/desktop-wp.png",
       "image2": "/mobile-wp.png",
+      "description": "Design and development of a landing page for a music band. I created versions for mobile, tablet, and desktop, and then initialized the website using the Astro framework. I learned the basics of Astro and used Tailwind CSS for styling. Additionally, I began learning TypeScript while developing the back-end application with NestJS.",
       "githubLink": "https://github.com/TimmyJonesP/WhitePalace-Astro",
       "deployLink": "https://whitepalace.netlify.app/"
     },
@@ -69,6 +70,7 @@
       "name": "Winery",
       "image": "/desktop-vt.png",
       "image2": "/mobile-vt.png",
+      "description": "Personal project for learning the basics and tools of the ReactJS ecosystem. Developed an e-commerce application using hooks, react-router-dom, and Firebase, where product and ticket data are stored. Implemented category filters in the navbar, a product table, a form for ticket generation, and responsive design.",
       "githubLink": "https://github.com/TimmyJonesP/CH-React.JS",
       "deployLink": "https://final-react-chi.vercel.app/"
     },
@@ -76,6 +78,7 @@
       "id": 4,
       "tech": "NestJS / TypeScript / PostgreSQL",
       "name": "APIrest",
+      "description": "After working with NodeJS, I explored NestJS because I was impressed with the decorators and the organization that this framework demands. It allowed me to be more organized when writing code and adhering to SOLID principles. I created a database for users, breeds, and cats, implemented authentication for user roles, and managed data storage through API requests. I used TypeORM with a relational database (MySQL) and decided to migrate to PostgreSQL during deployment without needing any codebase changes due to TypeORM. I used POSTMAN to verify endpoints and handle requests. This was also my first experience with TypeScript, where I utilized enums, interfaces, and validators in a more robust manner, ensuring that one change affected the entire project. DTO's handling front-end to back-end data structure.",
       "githubLink": "https://github.com/TimmyJonesP/Vet-API-Nestjs",
       "deployLink": ""
     },
@@ -83,6 +86,7 @@
       "id": 5,
       "tech": " NodeJS / Express / MongoDB",
       "name": "APIrest",
+      "description": "My first encounter with back-end development, NoSQL databases, Express, and many other technologies. The project is an e-commerce application that handles user creation and authentication (with the Passport library), user role management, CRUD operations for products, middlewares for public/user/admin access, shopping cart administration, DTOs, repository pattern, checkout process, and email notifications. There is also a GitHub login option using Passport. Technologies used: Express, Mongoose, Passport, NodeMailer, Swagger (for documentation), and JWT tokens.",
       "githubLink": "https://github.com/TimmyJonesP/Ecommerce-NodeJS-Express",
       "deployLink": ""
     }

@@ -30,13 +30,13 @@ const ProjectDetail = () => {
           className=" md:h-[100vh] h-full w-full object-cover object-center"
         />
       )}
-      <article className="p-5">
-        <h2 className=" font-medium uppercase text-[50px] md:text-[80px] leading-[0.8] py-7">
+      <article className="p-7">
+        <h2 className=" font-medium uppercase text-[4 0px] md:text-[80px] leading-[0.8] py-7">
           {project.tech}
         </h2>
         <p className=" text-[15px] md:text-[30px]">{project.description}</p>
       </article>
-      <article className="h-[90px] md:h-[180px] flex flex-row uppercase">
+      <article className="h-[90px] md:h-[180px] flex flex-row uppercase pb-10">
         <a
           href={project.githubLink}
           target="_blank"

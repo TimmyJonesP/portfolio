@@ -60,6 +60,7 @@
       "name": "White Palace",
       "image": "/desktop-wp.png",
       "image2": "/mobile-wp.png",
+      "description": "Diseño y desarrollo de una landing page para una banda de música. Creé versiones para móvil, tableta y escritorio, y luego inicialicé el sitio web utilizando el framework Astro. Aprendí los conceptos básicos de Astro y utilicé Tailwind CSS para el diseño. Además, comencé a aprender TypeScript mientras desarrollaba la aplicación de back-end con NestJS.",
       "githubLink": "https://github.com/TimmyJonesP/WhitePalace-Astro",
       "deployLink": "https://whitepalace.netlify.app/"
     },
@@ -69,6 +70,7 @@
       "name": "Vinoteca",
       "image": "/desktop-vt.png",
       "image2": "/mobile-vt.png",
+      "description": "Proyecto personal para aprender los conceptos básicos y las herramientas del ecosistema de ReactJS. Desarrollé una aplicación de comercio electrónico utilizando hooks, react-router-dom y Firebase, donde se almacenan los datos de productos y tickets. Implementé filtros por categoría en la barra de navegación, una tabla de productos, un formulario para la generación de tickets y mobile-first.",
       "githubLink": "https://github.com/TimmyJonesP/CH-React.JS",
       "deployLink": "https://final-react-chi.vercel.app/"
     },
@@ -76,6 +78,7 @@
       "id": 4,
       "tech": "NestJS / TypeScript / PostgreSQL",
       "name": "APIrest",
+      "description": "Después de trabajar con NodeJS, exploré NestJS porque me impresionaron los decoradores y la organización que este framework exige. Me permitió ser más organizado al escribir código y seguir los principios SOLID. Creé una base de datos para usuarios, razas y gatos, implementé autenticación para roles de usuario y gestioné el almacenamiento de datos a través de solicitudes API. Utilicé TypeORM con una base de datos relacional (MySQL) y decidí migrar a PostgreSQL durante el despliegue sin necesidad de cambiar la base de código gracias a TypeORM. Usé POSTMAN para verificar los endpoints y manejar las solicitudes. Esta fue también mi primera experiencia con TypeScript, donde utilicé enums, interfaces y validators de manera más robusta, asegurando que un cambio afectara a todo el proyecto. Manejo de DTO's para la estructura de datos del front-end al back-end.",
       "githubLink": "https://github.com/TimmyJonesP/Vet-API-Nestjs",
       "deployLink": ""
     },
@@ -83,6 +86,7 @@
       "id": 5,
       "tech": " NodeJS / Express / MongoDB",
       "name": "APIrest",
+      "description": "Mi primer encuentro con el desarrollo back-end, bases de datos NoSQL, Express y muchas otras tecnologías. El proyecto es una aplicación de e-commerce que maneja la creación y autenticación de usuarios (con la biblioteca Passport), la gestión de roles de usuario, operaciones CRUD para productos, middlewares para acceso público/usuario/admin, administración del carrito de compras, DTOs, patrón de repository, proceso de pago y notificaciones por correo electrónico. También hay una opción de inicio de sesión con GitHub usando Passport. Tecnologías utilizadas: Express, Mongoose, Passport, NodeMailer, Swagger (para documentación) y tokens JWT.",
       "githubLink": "https://github.com/TimmyJonesP/Ecommerce-NodeJS-Express",
       "deployLink": ""
     }

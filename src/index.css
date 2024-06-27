@@ -30,6 +30,13 @@ html{
 body {
   font-family: 'Neue Montreal', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 .gradient-text {
   background: linear-gradient(to right,
