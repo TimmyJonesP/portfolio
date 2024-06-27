@@ -36,7 +36,7 @@ const ProjectDetail = () => {
         </h2>
         <p className=" text-[15px] md:text-[30px]">{project.description}</p>
       </article>
-      <article className="h-[90px] md:h-[180px] flex flex-row">
+      <article className="h-[90px] md:h-[180px] flex flex-row uppercase">
         <a
           href={project.githubLink}
           target="_blank"
