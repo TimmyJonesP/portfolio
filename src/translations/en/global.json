@@ -52,7 +52,7 @@
       "image2": "/mobile-gp.png",
       "description": "Development of a web application based on a design from Figma. Utilized a mobile-first methodology and implemented multi-language support with i18next. My responsibilities included managing hosting, implementing SEO, and ensuring the proper functioning and maintenance of the website, as well as maintaining communication with the client. Work group: UI/UX Designer, UX Writer, and Developer. Although the GitHub repository is outdated, it provides an overview of the codebase.",
       "githubLink": "https://github.com/TimmyJonesP/GC",
-      "deployLink": "https://www.gariskcapital.com"
+      "deployLink": "https://main--garisk.netlify.app/"
     },
     {
       "id": 2,
