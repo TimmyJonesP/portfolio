@@ -33,7 +33,6 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  height: 100%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
