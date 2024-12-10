@@ -27,7 +27,7 @@ export const Home = () => {
         </div>
       </article>
       <article className="row-1 h-screen bg-lime-300 bg-grey flex items-center justify-center">
-        <div className="max-w-none sm:max-w-[60%] md:max-w-[840px] text-center leading-[0.8] flex sm:block flex-col items-center gap-0 sm:gap-2">
+        <div className="max-w-none sm:max-w-[60%] md:max-w-[1020px] text-center leading-[0.8] flex sm:block flex-col items-center gap-0 sm:gap-2">
           {(t("me.hobbies", { returnObjects: true }) as string[]).map(
             (hobby: string, index: number) => (
               <Me key={index} hobby={hobby} />
